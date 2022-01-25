@@ -5,11 +5,11 @@ const Decks: Deck[] = [
   {
     id: 1,
     title: texts.deck1,
-    size: 2,
+    size: 36,
     color: "#d4412d",
     backSide: false,
     empty: false,
-    accentIcons: [6, 19, 20, 24, 33, 34, 36, 41, 42, 44, 46, 50],
+    accentIcons: [2, 5, 8, 12, 14, 17, 18, 19, 22, 23, 25, 26, 31, 34, 36],
     accentColor: "white",
     iconColor: "black",
   },

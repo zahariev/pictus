@@ -44,12 +44,13 @@
         [style.position]="card.position ? 'absolute' : ''"
         [id]="'card' + card.id"
       >
+        <!-- {{ card.id }} -->
         <div
           [ngClass]="card.magnified ? 'magnify' : ''"
           class="card"
           (mousedown)="mouseDown($event)"
           [style.background-image]="
-            'url(./assets/cards/' + card.id + (card.side || '') + '.jpg)'
+            'url(./assets/cards/' + card.id + (card.side || '') + '_Pictus.jpg)'
           "
         >
           <div class="cardButtons" *ngIf="!gs.selectionMode && !dragEvent">
