@@ -11,7 +11,8 @@ footer a {
   position: absolute;
   z-index: 999;
   align-items: center;
-  background-color: #899394;
+  //   background-color: #899394;
+  background-color: #b3b3b3;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -20,47 +21,19 @@ footer a {
   .logo {
     background-size: contain;
     background-repeat: no-repeat;
-    min-width: 60px;
+    min-width: 115px;
     min-height: 60px;
     cursor: pointer;
     z-index: 99999;
   }
 
-  #logo_mcc {
-    min-width: 250px;
-    background-image: url("logos/mcc.png");
+  #logo_transformika {
+    // min-width: 170px;
+    background-image: url("logos/transformika.webp");
   }
 
-  #logo_erasmus {
-    width: 250px;
-    margin-right: 40px;
-    height: 50px;
-    background-image: url("logos/erasmus_logo.png");
-  }
-
-  #logo_national {
-    margin-left: 10px;
-    min-width: 220px;
-    min-height: 60px;
-    background-image: url("logos/national.png");
-  }
-
-  #logo_diarc {
-    display: inline-block;
-    width: 70px;
-    margin-top: -9px;
-    margin-left: 9px;
-    min-height: 65px;
-    background-image: url("logos/diarc.png");
-  }
-
-  #logo_tmc {
-    min-width: 170px;
-    background-image: url("logos/tmc.png");
-  }
-
-  #logo_nmct {
-    background-image: url("logos/nmct.png");
+  #logo_playcraft {
+    background-image: url("logos/playcraft.webp");
   }
 
   #logo_bo_yana {
@@ -69,26 +42,5 @@ footer a {
     margin-left: 60px;
 
     background-image: url("https://ipos.bg/bo_yana_logo.png");
-  }
-
-  @media screen and (max-width: 831px), screen and (max-height: 500px) {
-    #logo_mcc {
-      min-width: 120px;
-      background-image: url("logos/mobile/mcc.png");
-    }
-
-    #logo_int_school {
-      min-height: 55px;
-
-      min-width: 80px;
-      background-image: url("logos/mobile/international.png");
-    }
-
-    #logo_national {
-      margin-left: 10px;
-      min-width: 80px;
-      min-height: 60px;
-      background-image: url("logos/mobile/national.png");
-    }
   }
 }
