@@ -1,6 +1,13 @@
-footer a {
-  display: flex;
-  align-items: center;
+footer {
+  a {
+    display: flex;
+    align-items: center;
+  }
+
+  span {
+    color: #545454;
+    padding: 5px;
+  }
 }
 
 .footer {
@@ -21,7 +28,7 @@ footer a {
   .logo {
     background-size: contain;
     background-repeat: no-repeat;
-    min-width: 115px;
+    min-width: 165px;
     min-height: 60px;
     cursor: pointer;
     z-index: 99999;
@@ -32,13 +39,17 @@ footer a {
     background-image: url("logos/transformika.webp");
   }
 
+  #logo_lti {
+    background-image: url("logos/lti.png");
+  }
+
   #logo_playcraft {
-    background-image: url("logos/playcraft.webp");
+    background-image: url("logos/playcraft.png");
   }
 
   #logo_bo_yana {
     min-width: 120px;
-    min-height: 45px;
+    min-height: 39px;
     margin-left: 60px;
 
     background-image: url("https://ipos.bg/bo_yana_logo.png");
