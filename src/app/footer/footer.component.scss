@@ -19,7 +19,7 @@ footer {
   z-index: 999;
   align-items: center;
   //   background-color: #899394;
-  background-color: #b3b3b3;
+  background-color: #d6d6d6;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -34,23 +34,41 @@ footer {
     z-index: 99999;
   }
 
-  #logo_transformika {
-    // min-width: 170px;
-    background-image: url("logos/transformika.webp");
+  .logo2 {
+    display: flex;
+
+    min-width: 355px;
+    min-height: 70px;
+    cursor: pointer;
+    z-index: 99999;
   }
 
   #logo_lti {
     background-image: url("logos/lti.png");
   }
 
+  #logo_transformika {
+    // min-width: 170px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    min-width: 165px;
+    min-height: 73px;
+    background-image: url("logos/transformika.webp");
+  }
+
   #logo_playcraft {
+    background-size: contain;
+    background-repeat: no-repeat;
+    min-width: 165px;
+    min-height: 73px;
     background-image: url("logos/playcraft.png");
+    padding-top: 5px;
   }
 
   #logo_bo_yana {
     min-width: 120px;
     min-height: 39px;
-    margin-left: 60px;
+    margin-top: 20px;
 
     background-image: url("https://ipos.bg/bo_yana_logo.png");
   }

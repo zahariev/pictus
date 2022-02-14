@@ -1,39 +1,42 @@
 <footer>
   <div class="footer" fxLayout="row">
     <div fxLayout="column">
-      <div class="logo"></div>
+      <div
+        class="logo"
+        id="logo_lti"
+        (click)="openUrl('https://learn-to-inspire.com')"
+      ></div>
       <span fxFlex="20" id="tradeMark">
-        All content copyrigh &copy; 2022 by Learn-To-Inspire
+        All content copyrigh &copy;{{ year }} by Learn-To-Inspire
       </span>
     </div>
 
-    <div
-      class="logo"
-      id="logo_lti"
-      (click)="openUrl('https://learn-to-inspire.com')"
-    ></div>
-
-    <div
-      class="logo"
-      id="logo_playcraft"
-      (click)="openUrl('http://www.playcraft.co')"
-    ></div>
     <!-- <div
       class="logo"
       id="logo_lti"
       (click)="openUrl('https://www.learn-to-inspire.com')"
     ></div> -->
+    <div class="logo2" fxLayout="row">
+      <div
+        fxFlex="50"
+        id="logo_transformika"
+        (click)="openUrl('https://transformika.org')"
+      ></div>
 
-    <div
-      class="logo"
-      id="logo_transformika"
-      (click)="openUrl('https://transformika.org')"
-    ></div>
+      <div
+        fxFlex="50"
+        id="logo_playcraft"
+        (click)="openUrl('http://www.playcraft.co')"
+      ></div>
+    </div>
 
-    <div
-      class="logo"
-      id="logo_bo_yana"
-      (click)="openUrl('https://www.learn-to-inspire.com')"
-    ></div>
+    <div fxLayout="column">
+      <div
+        class="logo"
+        id="logo_bo_yana"
+        (click)="openUrl('https://www.learn-to-inspire.com')"
+      ></div>
+      <span fxFlex="20" id="tradeMark"> Dev Studio </span>
+    </div>
   </div>
 </footer>
