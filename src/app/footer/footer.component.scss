@@ -37,7 +37,7 @@ footer {
   .logo2 {
     display: flex;
 
-    min-width: 355px;
+    min-width: 455px;
     min-height: 70px;
     cursor: pointer;
     z-index: 99999;
@@ -53,20 +53,20 @@ footer {
     background-repeat: no-repeat;
     min-width: 165px;
     min-height: 73px;
-    background-image: url("logos/transformika.webp");
+    background-image: url("logos/transformika.png");
   }
 
   #logo_playcraft {
     background-size: contain;
     background-repeat: no-repeat;
-    min-width: 165px;
-    min-height: 73px;
+    min-width: 127px;
+    min-height: 53px;
     background-image: url("logos/playcraft.png");
     padding-top: 5px;
   }
 
   #logo_bo_yana {
-    min-width: 120px;
+    min-width: 112px;
     min-height: 39px;
     margin-top: 20px;
 
